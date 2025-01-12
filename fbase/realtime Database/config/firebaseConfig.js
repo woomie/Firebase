@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyD81mmX-0_mwU15dnRJU-0WDd7jypdXuC8",
+    apiKey: "API-key",
     authDomain: "fir-auth-demo-98abc.firebaseapp.com",
     databaseURL: "https://fir-auth-demo-98abc-default-rtdb.firebaseio.com",
     projectId: "fir-auth-demo-98abc",

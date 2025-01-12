@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #B8B8D1;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    padding:50px;
+}
+
+.user-details{
+    padding:40px;
+    background-color: #4c4d63;
+    border-radius: 30px;
+}
+
+input{
+    width: 100%;
+    padding:8px;
+    border-radius: 4px;
+    border-style: none;
+    
+}
+textarea{
+    width: 100%;
+    padding:8px;
+    border-radius: 4px;
+    border-style: none;
+    
+}
+button{
+    width:200px;
+    padding:8px;
+    background-color: #222238;
+    border-style: none;
+    border-radius: 4px;
+    color:white
+}
+label{
+    color: white;
+}

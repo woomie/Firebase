@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time DB</title>
+    <link rel="stylesheet" href="./modules/style.css">
+</head>
+<body>
+    <section class="section-1">
+        <div class="user-details">
+            <form id="form">
+                <div>
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name">
+                </div>
+                <br>
+                <div>
+                    <label for="user-email">Email</label>
+                    <input type="text" id="user-email">
+                </div>
+                <br>
+                <div>
+                    <label for="user-phone">Phone number</label>
+                    <input type="text" id="user-phone">
+                </div>
+                <br>
+                <div>
+                    <label for="user-comment">Comment</label>
+                    <textarea type="text" id="user-comment" placeholder="write your comment"></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <section class="section-2">
+        <table>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone No</th>
+            <th>Comment</th>
+            <tr>
+                <td id="table-name"></td>
+                <td id="table-email"></td>
+                <td id="table-phone"></td>
+                <td id="table-comment"></td>
+            </tr>
+            
+        </table>
+    </section>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+    <script type= "module" src="./modules/app.js"></script>
+</body>
+</html>

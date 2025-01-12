@@ -1,6 +1,6 @@
 //web app configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD81mmX-0_mwU15dnRJU-0WDd7jypdXuC8",
+    apiKey: "ApI Key",
     authDomain: "fir-auth-demo-98abc.firebaseapp.com",
     projectId: "fir-auth-demo-98abc",
     storageBucket: "fir-auth-demo-98abc.firebasestorage.app",
